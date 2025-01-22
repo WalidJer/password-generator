@@ -1,0 +1,11 @@
+{
+  "name": "password-generator",
+  "version": "1.0.0",
+  "description": "Create CLI application in Node.js that generates passwords for users based on arguments they provide via flags",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Walid Jerjawi",
+  "license": "MIT"
+}
