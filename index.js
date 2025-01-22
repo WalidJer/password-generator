@@ -2,12 +2,10 @@
 
 const process = require('node:process');
 
-
 const alphaLC = 'abcdefghijklmnopqrstuvwxyz'; // Lowercase letters
 const numbers = '0123456789'; 
 const alphaUC = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'; // Uppercase letters
 const symbols = '!@#$%^&*-_+=[]{}<>?/()';
-
 
 
 /**
@@ -46,7 +44,6 @@ function printHelpMessage() {
 Usage: node index.js [options]
 
 Options:
-  --length <number>, --len, length   Specify the length of the password (Default Length = 8)
   --length <number>, --len, length   Specify the length of the password (Default Length = 8)
   --uppercase, --uc, uppercase       Include uppercase letters
   --numbers, --num, numbers          Include numbers
